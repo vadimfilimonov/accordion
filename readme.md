@@ -26,7 +26,7 @@ Layout your markup like this:
 Then create an Accordion:
 
 ``` javascript
-import accordion from 'accordion';
+import accordion from '@vadimfilimonov/accordion';
 
 accordion();
 ```
@@ -36,7 +36,7 @@ accordion();
 The base stylesheet is located at `accordion.css`. Embed it into your application's existing styling
 
 ``` css
-import 'accordion/accordion';
+@import '@vadimfilimonov/accordion/accordion.css';
 ```
 
 or add styles for accordion's content like this:

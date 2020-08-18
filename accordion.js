@@ -8,15 +8,17 @@ const findElements = (object, element) => {
 
 const hideElement = (object) => {
 	const instance = object;
-	const { target } = instance;
+	const { element, target } = instance;
 	target.style.height = null;
+	element.classList.remove('js-accordion-is-active');
 	instance.isActive = false;
 };
 
 const showElement = (object) => {
 	const instance = object;
-	const { target, height } = instance;
+	const { element, target, height } = instance;
 	target.style.height = `${height}px`;
+	element.classList.add('js-accordion-is-active');
 	instance.isActive = true;
 };
 
