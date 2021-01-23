@@ -2,7 +2,7 @@
 
 ## Installation
 
-```sh
+```
 npm install @vadimfilimonov/accordion --save
 ```
 
@@ -10,7 +10,7 @@ npm install @vadimfilimonov/accordion --save
 
 Layout your markup like this:
 
-```html
+``` html
 <dl>
     <dt class="js-accordion">
         <button type="button">Click me?</button>
@@ -25,7 +25,7 @@ Layout your markup like this:
 
 Then create an Accordion:
 
-```javascript
+``` javascript
 import accordion from '@vadimfilimonov/accordion';
 
 accordion();
@@ -35,13 +35,13 @@ accordion();
 
 The base stylesheet is located at `accordion.css`. Embed it into your application's existing styling
 
-```css
+``` css
 @import '@vadimfilimonov/accordion/accordion.css';
 ```
 
 or add styles for accordion's content like this:
 
-```css
+``` css
 .js-accordion + * {
     overflow: hidden;
     height: 0;

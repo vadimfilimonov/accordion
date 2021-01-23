@@ -1,5 +1,5 @@
 .js-accordion + * {
   overflow: hidden;
-	height: 0;
-	transition: height 0.5s;
+  height: 0;
+  transition: height 0.5s;
 }
