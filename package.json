@@ -8,6 +8,7 @@
   "main": "accordion.js",
   "type": "module",
   "scripts": {
+    "lint": "eslint ./accordion.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
