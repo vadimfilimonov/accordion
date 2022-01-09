@@ -1,5 +1,7 @@
 # Accordion
 
+[![Actions Status](https://github.com/VadimFilimonov/accordion/workflows/linter/badge.svg)](https://github.com/VadimFilimonov/accordion/actions/workflows/linter.yml)
+
 ## Installation
 
 ```sh

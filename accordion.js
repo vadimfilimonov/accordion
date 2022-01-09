@@ -53,8 +53,6 @@ const constructor = (element) => {
   };
 
   init();
-
-  return instance;
 };
 
 const accordion = () => {

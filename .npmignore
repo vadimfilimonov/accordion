@@ -1,0 +1,4 @@
+.npmignore
+.editorconfig
+.eslintrc.json
+node_modules

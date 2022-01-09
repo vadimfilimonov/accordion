@@ -1,6 +1,6 @@
 {
   "name": "@vadimfilimonov/accordion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple accordion with no external dependencies",
   "keywords": [
     "accordion"
@@ -18,8 +18,8 @@
   "author": "Vadim Filimonov",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.18.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
   }
 }
